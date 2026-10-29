@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1130" viewBox="0 0 2000 1130">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#35055C"/><stop offset="0.46" stop-color="#121148"/><stop offset="1" stop-color="#040B27"/></linearGradient>
+<radialGradient id="glow" cx="0.25" cy="0.1" r="0.9"><stop stop-color="#A72CEE" stop-opacity="0.24"/><stop offset="1" stop-color="#472D9D" stop-opacity="0"/></radialGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#D921FF"/><stop offset="0.25" stop-color="#FF8A1E"/><stop offset="0.50" stop-color="#27DDF6"/><stop offset="0.75" stop-color="#8B5CF6"/><stop offset="1" stop-color="#16F1C3"/></linearGradient>
+<filter id="softglow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="11"/></filter>
+<filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#060824" flood-opacity="0.45"/></filter>
+</defs>
+<rect width="2000" height="1130" fill="url(#bg)"/><rect width="2000" height="1130" fill="url(#glow)"/>
+<g opacity="0.15" stroke="#6E54B2"><path d="M0 0V1130" stroke-width="0.8"/><path d="M80 0V1130" stroke-width="0.8"/><path d="M160 0V1130" stroke-width="0.8"/><path d="M240 0V1130" stroke-width="0.8"/><path d="M320 0V1130" stroke-width="0.8"/><path d="M400 0V1130" stroke-width="0.8"/><path d="M480 0V1130" stroke-width="0.8"/><path d="M560 0V1130" stroke-width="0.8"/><path d="M640 0V1130" stroke-width="0.8"/><path d="M720 0V1130" stroke-width="0.8"/><path d="M800 0V1130" stroke-width="0.8"/><path d="M880 0V1130" stroke-width="0.8"/><path d="M960 0V1130" stroke-width="0.8"/><path d="M1040 0V1130" stroke-width="0.8"/><path d="M1120 0V1130" stroke-width="0.8"/><path d="M1200 0V1130" stroke-width="0.8"/><path d="M1280 0V1130" stroke-width="0.8"/><path d="M1360 0V1130" stroke-width="0.8"/><path d="M1440 0V1130" stroke-width="0.8"/><path d="M1520 0V1130" stroke-width="0.8"/><path d="M1600 0V1130" stroke-width="0.8"/><path d="M1680 0V1130" stroke-width="0.8"/><path d="M1760 0V1130" stroke-width="0.8"/><path d="M1840 0V1130" stroke-width="0.8"/><path d="M1920 0V1130" stroke-width="0.8"/><path d="M2000 0V1130" stroke-width="0.8"/><path d="M2080 0V1130" stroke-width="0.8"/><path d="M0 0H2000" stroke-width="0.8"/><path d="M0 80H2000" stroke-width="0.8"/><path d="M0 160H2000" stroke-width="0.8"/><path d="M0 240H2000" stroke-width="0.8"/><path d="M0 320H2000" stroke-width="0.8"/><path d="M0 400H2000" stroke-width="0.8"/><path d="M0 480H2000" stroke-width="0.8"/><path d="M0 560H2000" stroke-width="0.8"/><path d="M0 640H2000" stroke-width="0.8"/><path d="M0 720H2000" stroke-width="0.8"/><path d="M0 800H2000" stroke-width="0.8"/><path d="M0 880H2000" stroke-width="0.8"/><path d="M0 960H2000" stroke-width="0.8"/><path d="M0 1040H2000" stroke-width="0.8"/><path d="M0 1120H2000" stroke-width="0.8"/></g><text x="90" y="108" fill="#FFFFFF" font-family="Arial, sans-serif" font-weight="700" font-size="65" letter-spacing="1">KN2</text>
+<text x="245" y="105" fill="#E8E0FF" font-family="Arial, sans-serif" font-size="39">GPU k-NN Search Engine</text>
+<text x="92" y="152" fill="#AAA8D6" font-family="Arial, sans-serif" font-size="23" letter-spacing="2">SYSTEM ARCHITECTURE  /  EXACT VECTOR SEARCH</text>
+<text x="1900" y="90" text-anchor="end" fill="#8E99CC" font-family="Arial" font-size="20" letter-spacing="4">C++17 + CUDA</text>
+<path d="M258 354 H1735" stroke="url(#line)" stroke-width="14" opacity="0.23" filter="url(#softglow)"/>
+<path d="M262 354 H1735" stroke="url(#line)" stroke-width="4" opacity="0.88"/>
+<path d="M423 344 l17 10 -17 10" fill="none" stroke="#FF8A1E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><g filter="url(#shadow)"><rect x="86" y="241" width="280" height="227" rx="28" fill="#14143D" stroke="#D921FF" stroke-opacity="0.7" stroke-width="2"/></g>
+    <circle cx="226" cy="264" r="45" fill="#D921FF" opacity="0.16" filter="url(#softglow)"/>
+    <circle cx="226" cy="264" r="45" fill="#1B1148" stroke="#D921FF" stroke-width="6"/>
+    <text x="226" y="279" fill="#D921FF" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">01</text>
+    <text x="226" y="366" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">REST API</text>
+    <text x="226" y="401" fill="#D921FF" text-anchor="middle" font-family="Arial" font-size="20">C++17 · HTTP / JSON</text>
+    <path d="M106 430 H346" stroke="#D921FF" opacity="0.22"/><text x="226" y="548" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">Receives vector inserts, updates,</text><text x="226" y="580" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">deletes, and search requests.</text><text x="226" y="612" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">Persists mutations to the WAL.</text><path d="M810 344 l17 10 -17 10" fill="none" stroke="#27DDF6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><g filter="url(#shadow)"><rect x="473" y="241" width="280" height="227" rx="28" fill="#14143D" stroke="#FF8A1E" stroke-opacity="0.7" stroke-width="2"/></g>
+    <circle cx="613" cy="264" r="45" fill="#FF8A1E" opacity="0.16" filter="url(#softglow)"/>
+    <circle cx="613" cy="264" r="45" fill="#1B1148" stroke="#FF8A1E" stroke-width="6"/>
+    <text x="613" y="279" fill="#FF8A1E" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">02</text>
+    <text x="613" y="366" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">Query batching</text>
+    <text x="613" y="401" fill="#FF8A1E" text-anchor="middle" font-family="Arial" font-size="20">Concurrent request coalescing</text>
+    <path d="M493 430 H733" stroke="#FF8A1E" opacity="0.22"/><text x="613" y="548" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">Groups simultaneous queries,</text><text x="613" y="580" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">normalizes their vectors, and</text><text x="613" y="612" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">amortizes GPU computation.</text><path d="M1197 344 l17 10 -17 10" fill="none" stroke="#8B5CF6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><g filter="url(#shadow)"><rect x="860" y="241" width="280" height="227" rx="28" fill="#14143D" stroke="#27DDF6" stroke-opacity="0.7" stroke-width="2"/></g>
+    <circle cx="1000" cy="264" r="45" fill="#27DDF6" opacity="0.16" filter="url(#softglow)"/>
+    <circle cx="1000" cy="264" r="45" fill="#1B1148" stroke="#27DDF6" stroke-width="6"/>
+    <text x="1000" y="279" fill="#27DDF6" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">03</text>
+    <text x="1000" y="366" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">cuBLAS SGEMM</text>
+    <text x="1000" y="401" fill="#27DDF6" text-anchor="middle" font-family="Arial" font-size="20">Exact cosine similarity</text>
+    <path d="M880 430 H1120" stroke="#27DDF6" opacity="0.22"/><text x="1000" y="548" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">Computes the score matrix</text><text x="1000" y="580" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">against normalized GPU-resident</text><text x="1000" y="612" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">embeddings in dense batches.</text><path d="M1584 344 l17 10 -17 10" fill="none" stroke="#16F1C3" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><g filter="url(#shadow)"><rect x="1247" y="241" width="280" height="227" rx="28" fill="#14143D" stroke="#8B5CF6" stroke-opacity="0.7" stroke-width="2"/></g>
+    <circle cx="1387" cy="264" r="45" fill="#8B5CF6" opacity="0.16" filter="url(#softglow)"/>
+    <circle cx="1387" cy="264" r="45" fill="#1B1148" stroke="#8B5CF6" stroke-width="6"/>
+    <text x="1387" y="279" fill="#8B5CF6" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">04</text>
+    <text x="1387" y="366" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">CUDA Top-K</text>
+    <text x="1387" y="401" fill="#8B5CF6" text-anchor="middle" font-family="Arial" font-size="20">Two-stage parallel reduction</text>
+    <path d="M1267 430 H1507" stroke="#8B5CF6" opacity="0.22"/><text x="1387" y="548" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">Reduces similarity scores</text><text x="1387" y="580" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">directly on the GPU, without</text><text x="1387" y="612" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">copying every score to CPU.</text><g filter="url(#shadow)"><rect x="1634" y="241" width="280" height="227" rx="28" fill="#14143D" stroke="#16F1C3" stroke-opacity="0.7" stroke-width="2"/></g>
+    <circle cx="1774" cy="264" r="45" fill="#16F1C3" opacity="0.16" filter="url(#softglow)"/>
+    <circle cx="1774" cy="264" r="45" fill="#1B1148" stroke="#16F1C3" stroke-width="6"/>
+    <text x="1774" y="279" fill="#16F1C3" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700">05</text>
+    <text x="1774" y="366" fill="#FFFFFF" text-anchor="middle" font-family="Arial" font-size="28" font-weight="700">Ranked results</text>
+    <text x="1774" y="401" fill="#16F1C3" text-anchor="middle" font-family="Arial" font-size="20">IDs + scores + metadata</text>
+    <path d="M1654 430 H1894" stroke="#16F1C3" opacity="0.22"/><text x="1774" y="548" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">Returns only the winning</text><text x="1774" y="580" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">matches through the REST API;</text><text x="1774" y="612" fill="#C4C5E8" text-anchor="middle" font-family="Arial" font-size="23">the full index stays on GPU.</text><g>
+<path d="M226 468 V714 H385" fill="none" stroke="#D921FF" stroke-width="4" stroke-opacity=".8"/>
+<path d="M370 704 l15 10 -15 10" fill="none" stroke="#D921FF" stroke-width="4"/>
+<rect x="385" y="676" width="550" height="166" rx="25" fill="#1B1447" stroke="#D921FF" stroke-width="2.5"/>
+<circle cx="443" cy="755" r="42" fill="#41116F" stroke="#E23BFD" stroke-width="4"/>
+<path d="M421 742q22-14 44 0q-22 16-44 0m0 0v27q22 15 44 0v-27m-44 13q22 16 44 0" fill="none" stroke="#EEA8FF" stroke-width="3"/>
+<text x="510" y="737" font-family="Arial" font-size="28" fill="#FDF7FF" font-weight="700">Persistent WAL</text>
+<text x="510" y="776" font-family="Arial" font-size="22" fill="#C7BDEB">Durable updates and restart recovery;</text>
+<text x="510" y="808" font-family="Arial" font-size="22" fill="#C7BDEB">does not participate in query ranking.</text>
+<rect x="1030" y="676" width="570" height="166" rx="25" fill="#102A48" stroke="#17EED1" stroke-width="2.5"/>
+<circle cx="1089" cy="756" r="42" fill="#00525C" stroke="#16F1C3" stroke-width="4"/>
+<path d="M1070 741q19-13 38 0q-19 16-38 0m0 0v28q19 15 38 0v-28m-38 14q19 15 38 0" fill="none" stroke="#A0FFE9" stroke-width="3"/>
+<text x="1155" y="735" font-family="Arial" font-size="27" fill="#F5FFFF" font-weight="700">100K FP32 Vectors on GPU</text>
+<text x="1155" y="777" font-family="Arial" font-size="22" fill="#B9E8E7">Contiguous, normalized embeddings</text>
+<text x="1155" y="810" font-family="Arial" font-size="22" fill="#B9E8E7">are kept in device memory.</text>
+<path d="M1315 676 V649 H1000 V468" fill="none" stroke="#16F1C3" stroke-width="4" stroke-opacity=".92"/>
+<path d="M989 486 L1000 468 L1011 486" fill="none" stroke="#16F1C3" stroke-width="4"/>
+</g>
+<path d="M90 939 H1910" stroke="#554D99" stroke-width="2" opacity=".55"/>
+<text x="90" y="994" font-family="Arial" font-size="25" fill="#CFD2FB">SEARCH PATH</text>
+<text x="90" y="1039" font-family="Arial" font-size="25" fill="#F0EDFF">API  →  Batch  →  cuBLAS  →  CUDA Top-K  →  Ranked JSON results</text>
+<text x="1910" y="1002" text-anchor="end" font-family="Arial" font-size="22" fill="#ABA8D5">Persistent storage and GPU vectors form side branches</text>
+<text x="1910" y="1043" text-anchor="end" font-family="Arial" font-size="22" fill="#AAB7E7">Exact cosine similarity · GPU-resident index</text>
+</svg>

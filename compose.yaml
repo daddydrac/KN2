@@ -1,0 +1,29 @@
+services:
+  kn2:
+    build:
+      context: .
+      args:
+        CUDA_ARCHS: ${CUDA_ARCHS:-75-real;80-real;86-real;89-real;90-real;120-real;89-virtual}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${KNN_HOST_PORT:-8080}:8080"
+    environment:
+      KNN_DIMENSIONS: ${KNN_DIMENSIONS:-0}
+      KNN_CAPACITY: ${KNN_CAPACITY:-100000}
+      KNN_MAX_BATCH: ${KNN_MAX_BATCH:-32}
+      KNN_MAX_K: ${KNN_MAX_K:-32}
+      KNN_BATCH_WAIT_US: ${KNN_BATCH_WAIT_US:-200}
+      KNN_HTTP_THREADS: ${KNN_HTTP_THREADS:-16}
+      KNN_WAL_PATH: /data/index.wal
+    volumes:
+      - knn-data:/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+volumes:
+  knn-data:
